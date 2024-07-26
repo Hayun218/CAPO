@@ -36,6 +36,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE704CEB2C4FEFD8000C82F3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		AE8AC1622B5C1CAB0034CFB0 = {
 			isa = PBXGroup;
 			children = (
@@ -55,21 +62,13 @@
 		AE8AC16D2B5C1CAB0034CFB0 /* CAPO */ = {
 			isa = PBXGroup;
 			children = (
+				AE704CEB2C4FEFD8000C82F3 /* Features */,
+				AE8AC1702B5C1CAB0034CFB0 /* ContentView.swift */,
 				AEE3200C2B5D505700766138 /* Source */,
 				AEE3200D2B5D506600766138 /* Resource */,
 				AEE3200E2B5D507200766138 /* Component */,
-				AEE3200F2B5D507900766138 /* Presentation */,
-				AE8AC1742B5C1CAC0034CFB0 /* Preview Content */,
 			);
 			path = CAPO;
-			sourceTree = "<group>";
-		};
-		AE8AC1742B5C1CAC0034CFB0 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				AE8AC1752B5C1CAC0034CFB0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		AEE3200C2B5D505700766138 /* Source */ = {
@@ -84,6 +83,7 @@
 		AEE3200D2B5D506600766138 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				AE8AC1752B5C1CAC0034CFB0 /* Preview Assets.xcassets */,
 				AE8AC1722B5C1CAC0034CFB0 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -96,22 +96,6 @@
 				AEE320122B5D569200766138 /* Extension */,
 			);
 			path = Component;
-			sourceTree = "<group>";
-		};
-		AEE3200F2B5D507900766138 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				AE8AC1702B5C1CAB0034CFB0 /* ContentView.swift */,
-				AEE320112B5D54BF00766138 /* Main */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		AEE320112B5D54BF00766138 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		AEE320122B5D569200766138 /* Extension */ = {
